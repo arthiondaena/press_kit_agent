@@ -1,0 +1,4 @@
+smolagents
+markdownify
+requests
+mdutils
