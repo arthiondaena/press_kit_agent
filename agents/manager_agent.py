@@ -45,7 +45,7 @@ class ManagerAgent:
         self.review_agent = ReviewAgent()
 
         self.agent = CodeAgent(
-            tools=[UserInputTool(), preview_content
+            tools=[UserInputTool()
                 # , write_file, read_file, read_md_file
                    ],
             model=self.model,

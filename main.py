@@ -18,6 +18,7 @@ def main():
         '-t', '--topic',
         type=str,
         default=None,
+        required=True,
         help="""Press kit topic
                 Example: "Launch of a new AI-driven analysis platform targeting global markets" """
     )
@@ -35,3 +36,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+    # python .\main.py "Tesla, Inc.; Flagship product: Electric vehicles; Achievements: Leading innovation in renewable energy." -t "Launch of a new AI-driven analysis platform targeting global markets" --tone "Professional"
